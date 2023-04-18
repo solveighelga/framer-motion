@@ -10,8 +10,6 @@ export default function Scroll() {
 
     return (
         <div className="cardContainer">
-            {/* layout to the card, it will detect any changes to the layout and it will detect any of the properties, postion or size */}
-            {/* layout: duration; how long it takes -  */}
             {cardData.filter(card => card.category === "Scroll").map ((card) => { 
                 return (
                 <Card card={card} isOpen={isOpen} setIsOpen={setIsOpen}/>

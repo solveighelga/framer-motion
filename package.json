@@ -1,5 +1,6 @@
 {
   "name": "workshop-guide",
+  "homepage": "https://solveighelga.github.io/framer-motion/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

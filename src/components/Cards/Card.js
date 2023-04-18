@@ -1,18 +1,25 @@
 import { motion } from "framer-motion";
 
-
+// Here is the button that is displayed on the card. It grabs the url from the cardData.js file
 function SandboxButton({url}) { 
   
     return (
         <div>
             <a className="buttonLink" href={url} target="_blank" rel="noopener noreferrer">
-                <button style= {{backgroundColor: "#b900bca8" }} className="codeButton">Sandbox</button>
+                <motion.button 
+                    style= {{backgroundColor: "#b900bca8" }} 
+                    className="codeButton"
+                    whileHover={{scale: 1.1}}
+                    whileTap={{scale: 0.8}}
+                    >
+                    Sandbox
+                </motion.button>
             </a>
         </div>
     );
   }
 
-        
+// Here I am using props to grab my cardData
 export default function Card({card, isOpen, setIsOpen}) {
     return (
         <motion.div 
@@ -35,7 +42,7 @@ export default function Card({card, isOpen, setIsOpen}) {
                 className="expand"
             >
                 <p>{card.text}</p>
-                <p>{card.subtitle}</p>    
+                <p>Try it out yourself</p>    
                 <SandboxButton url={card.url} className="buttonContainer" />
             </motion.div>
                 )}

@@ -2,12 +2,13 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
+// This function will bring you back to the top of the page
 export default function BackToTopButton() {
     const [backToTopButton, setBackToTopButton] = useState(false);
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            if(window.scrollY > 800) {
+            if(window.scrollY > 800) { // 800 is when the button will appear
                 setBackToTopButton(true)
             } else {
                 setBackToTopButton(false)
@@ -30,7 +31,7 @@ export default function BackToTopButton() {
                 transition={{  
                     duration: 2 }}
                 style={{
-                    position: "fixed",
+                    position: "fixed", // keeps it stuck to the bottom
                     bottom: "50px",
                     right: "50px",
                     height: "50px",

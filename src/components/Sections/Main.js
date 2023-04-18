@@ -3,7 +3,7 @@ import {Link} from 'react-scroll'
 import { motion, useInView, useAnimate, stagger} from "framer-motion";
 import "../../styles.css";
 
-
+//Documentation:
 // https://www.framer.com/motion/transition/ 
 // https://www.framer.com/motion/stagger/
 // https://www.framer.com/motion/use-animate/
@@ -16,13 +16,12 @@ export default function MainSection() {
   const [scope, animate] = useAnimate();
 
   useEffect(() => {
-    // This "li" selector will only select children
-    // of the element that receives `scope`.
+    // This "li" selector will only select children of the element that receives `scope`.
     animate(
         "li",
         isInView
             ? { opacity: 1, scale: 1, filter: "blur(0px)" }
-            : { opacity: "0", scale: 3, filter: "blur(80px)" },
+            : { opacity: "0", scale: 3, filter: "blur(80px)" }, // when I use "" on a value then it will force it to be that value, i.e. "0"
         {
             duration: 0.2,
             delay: isInView ? staggerListItems : 0
