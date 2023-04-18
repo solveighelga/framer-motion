@@ -1,0 +1,228 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  min-height: 90vh;
+}
+
+section {
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  padding: 50px;
+  background: #1b8eff;
+  min-height: 101vh;
+}
+
+section:nth-child(3) {
+  background: #f30090;
+}
+
+section:nth-child(4) {
+  background: #b800bc; 
+}
+
+section:nth-child(5) {
+  background: #8f00dd;
+}
+
+section:nth-child(6) {
+  background: #7100fd;
+}
+
+section span {
+  display: block;
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+/* Scroll Progress */
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: #000;
+  transform-origin: 0%;
+}
+
+
+/* Main Section */
+.mainSection {
+  box-sizing: border-box;
+  width: 100%;
+  height: 101vh;
+  overflow: hidden;
+  padding: 50px;
+  background: #000;
+}
+
+.mainTitle {
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 64px;
+  letter-spacing: -4px;
+  text-align: center;
+}
+
+.mainSection h2 {
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.sectionTitle {
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 64px;
+  letter-spacing: -4px;
+}
+
+.header {
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.listContainer {
+  list-style: none;
+  padding-left: 0;
+}
+
+.listItem {
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  overflow: hidden;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Card */
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  
+  gap: 2rem;
+  padding-top: 0;
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+.card {
+  background-color: #fff;
+  padding: 3rem 5rem;
+  cursor: pointer;
+  overflow: hidden;
+  overflow-y: scroll;
+  height:min-content; 
+  max-width: 1000px;
+}
+
+.card p {
+  padding-top: 1rem;
+  line-height: 150%;
+}
+
+.codeButton {
+  color: #ffff;
+  height: 40px;
+  width: 140px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonLink {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  section {
+    height: 101vh;
+  }
+
+  .cardContainer {
+    padding-right: 20vw;
+    padding-left: 20vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Card Styling */
+
+/* .cardStyle {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  padding: 20px;
+  margin: 10px;
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  width: 300px;
+  height: 300px;
+}
+
+.selectedId {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalStyles {
+  background-color: #fff;
+  border-radius: 0.6rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 9999;
+  overflow: hidden;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+.closeButton {
+  background-color: #b900bc6a;
+  color: #ffff;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+} */
