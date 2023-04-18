@@ -1,3 +1,19 @@
+# Framer-motion. project
+
+My project is a guide for our workshop. 
+
+If you have opned up my project you will see that none of the cards have information on them yet (except one test card in Toggle). There is a reason for that and that is I would like to get **feedbck on what information would be useful** to you on the card vs. inside the code in sandbox (comments in code). I tried to put a code snippet on the card but was unsuccessful :( Would you like to see an image of the code on the card that you will be using? or is that maybe unnecessary?
+
+## Presentation
+
+What information would you find useful in the presentation to be able to take part in the workshop? I will start off my introducing Framer Motion and then go into micro animations specifically before introducing the workshop where you will be testing framer-motion with a toggle switch, button effects, drag, path and scroll (hopefully)!
+
+### Are three examples per animation enough (cards)?
+
+Should I write the whole code out in Sandbox for you and then all you have to do is play around with the numbers? or should I have you write the code snippet by hand? I am leaning towards writing the code for you and you play around with numbers and small animations I think if you write the code yourself it will take too long. Thoughts?
+
+________________________________________
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
