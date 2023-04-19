@@ -2,7 +2,7 @@
 
 My project is a guide for our workshop. 
 
-If you have opned up my project you will see that none of the cards have information on them yet (except one test card in Toggle). There is a reason for that and that is I would like to get **feedbck on what information would be useful** to you on the card vs. inside the code in sandbox (comments in code). I tried to put a code snippet on the card but was unsuccessful :( Would you like to see an image of the code on the card that you will be using? or is that maybe unnecessary?
+If you have opned up my project you will see that none of the cards have information on them yet (except one test card in Toggle, Animate Scale). There is a reason for that and that is I would like to get **feedbck on what information would be useful** to you on the card vs. inside the code in sandbox (comments in code). I tried to put a code snippet on the card but was unsuccessful :( Would you like to see an image of the code on the card that you will be using? or is that maybe unnecessary?
 
 ## Presentation
 
