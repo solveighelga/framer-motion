@@ -49,7 +49,7 @@ export default function App() {
       <Section ref={ref}> 
         <div className="titleContainer">
           <h1 className="sectionTitle" id='toggle' >Toggle Switch</h1>
-          < OriginalSandbox />
+          < OriginalSandbox url="https://codesandbox.io/s/toggle-switch-q5ugcp" />
         </div>
         <Toggle className="sectionContent" />
       </Section>

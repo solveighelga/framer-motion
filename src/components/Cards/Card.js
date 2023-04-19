@@ -28,7 +28,7 @@ export default function Card({card, isOpen, setIsOpen}) {
             onClick={() => setIsOpen(isOpen === card.id ? false : card.id)} 
             className="card"
             style={{
-                borderRadius: "1rem", 
+                borderRadius: "1rem",
                 boxShadow: '0px 10px 30px rgba(0,0,0, 0.5)',
             }}
             >

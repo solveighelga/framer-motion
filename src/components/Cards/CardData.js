@@ -1,5 +1,5 @@
 
-// Everything that is here will be rendered on the cards by id and category. 
+// Everything that is here will be rendered on the cards by id and category. Made a mini API.
 const cardData = [
   // Toggle Switch Sandbox Projects
   {
@@ -7,8 +7,7 @@ const cardData = [
     category: "Toggle",
     title: "Scale Animation",
     text: "You can use the 'scale' property to animate the size of your toggle switch. This code animates the size of the 'div' element using the 'scale' property. When the toggle switch is active (i.e. 'isOn' is 'ture'), the size of the element is increased by a factor of '1.2'. The spring component in 'transition' is replaced by the duration property to animate in 0.3 sec.",
-    url: "https://codesandbox.io/s/toggle-switch-q5ugcp?file=/src/styles.css",
-    example: "https://codesandbox.io/s/toggle-switch-q5ugcp?file=/src/styles.css"
+    url: "https://codesandbox.io/s/animate-scale-xzesep?file=/src/App.js",
   },
 
   {
