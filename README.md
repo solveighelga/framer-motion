@@ -10,7 +10,7 @@ What information would you find useful in the presentation to be able to take pa
 
 ### Are three examples per animation enough (cards)?
 
-Should I write the whole code out in Sandbox for you and then all you have to do is play around with the numbers? or should I have you write the code snippet by hand? I am leaning towards writing the code for you and you play around with numbers and small animations I think if you write the code yourself it will take too long. Thoughts?
+Should I write the whole code out in Sandbox for you and then all you have to do is play around with the numbers? or should I have you write the code snippet by hand? I am leaning towards writing the code for you and you play around with numbers and small animations I think if you write the code yourself it will take too long. The Example I have now indisde the card (Sandbox button) is where I write the code and you play around with the value. Thoughts?
 
 ________________________________________
 
