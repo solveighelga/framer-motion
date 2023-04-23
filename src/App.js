@@ -6,9 +6,8 @@ import "./styles.css";
 import MainSection from "./components/Sections/Main";
 import Toggle from "./components/Sections/Toggle";
 import ButtonCard from "./components/Sections/Button";
-import Drag from "./components/Sections/Drag";
 import Path from "./components/Sections/Path";
-import Scroll from "./components/Sections/Scroll";
+import Scroll from "./components/Sections/Progress";
 import BackToTopButton from "./components/BackToTop";
 import OriginalSandbox from "./components/ExampleButton";
 
@@ -57,17 +56,9 @@ export default function App() {
       <Section ref={ref}>
         <div className="titleContainer">
           <h1 className="sectionTitle" id='button' >Buttons</h1>
-          < OriginalSandbox />
+          < OriginalSandbox url="https://codesandbox.io/s/button-effects-w1ih35?file=/src/App.js" />
         </div>
         <ButtonCard />
-      </Section>
-      
-      <Section ref={ref}>
-        <div className="titleContainer">
-          <h1 className="sectionTitle" id='drag'>Drag</h1>
-          < OriginalSandbox />
-        </div>
-          <Drag />
       </Section>
       
       <Section ref={ref}>
@@ -80,8 +71,8 @@ export default function App() {
       
       <Section ref={ref}>
         <div className="titleContainer">
-          <h1 className="sectionTitle" id='scroll'>Scroll</h1>
-          < OriginalSandbox />
+          <h1 className="sectionTitle" id='progress'>Progress</h1>
+          < OriginalSandbox url="https://solveighelga.github.io/framer-motion/" />
         </div>
           <Scroll />
       </Section>

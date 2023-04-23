@@ -71,6 +71,7 @@ section span {
   font-size: 64px;
   letter-spacing: -4px;
   text-align: center;
+  margin-top: 0px;
 }
 
 .mainSection h2 {
@@ -175,7 +176,7 @@ section span {
 
 
 /* In order for my content to not fall off the page I created a media query */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1920px) {
   section {
     height: 101vh;
   }
@@ -183,5 +184,11 @@ section span {
   .cardContainer {
     padding-right: 20vw;
     padding-left: 20vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .sectionTitle {
+    font-size: 49px;
   }
 }

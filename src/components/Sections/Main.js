@@ -21,7 +21,7 @@ export default function MainSection() {
         "li",
         isInView
             ? { opacity: 1, scale: 1, filter: "blur(0px)" }
-            : { opacity: "0", scale: 3, filter: "blur(80px)" }, // when I use "" on a value then it will force it to be that value, i.e. "0"
+            : { opacity: "0", scale: 3, filter: "blur(80px)" }, // when I use " " on a value then it will force it to be that value, i.e. "0"
         {
             duration: 0.2,
             delay: isInView ? staggerListItems : 0
@@ -68,24 +68,16 @@ export default function MainSection() {
                     whileHover= {{color: "#8f00dd", scale: 1.01}} 
                     className="listItem" 
                 >
-                    <Link to="drag" spy={true} smooth={true} offset={-100} duration={1500}>
-                        Drag
+                    <Link to="path" spy={true} smooth={true} offset={-100} duration={1500}>
+                        Path
                     </Link>
                 </motion.li>
                 <motion.li 
                     whileHover= {{color: "#7100fd", scale: 1.01}} 
                     className="listItem" 
                 >
-                    <Link to="path" spy={true} smooth={true} offset={-100} duration={2000}>
-                        Path
-                    </Link>
-                </motion.li>
-                <motion.li 
-                    whileHover= {{color: "#1b8eff", scale: 1.01 }} 
-                    className="listItem" 
-                >
-                    <Link to="scroll" spy={true} smooth={true} offset={-100} duration={2500}>
-                        Scroll
+                    <Link to="progress" spy={true} smooth={true} offset={-100} duration={2000}>
+                        Progress
                     </Link>
                 </motion.li>
             </motion.ul>
