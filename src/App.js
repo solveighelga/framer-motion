@@ -64,7 +64,7 @@ export default function App() {
       <Section ref={ref}>
         <div className="titleContainer">
           <h1 className="sectionTitle" id='path'>Path</h1>
-          < OriginalSandbox />
+          < OriginalSandbox url="https://codesandbox.io/s/path-checkmark-example-gdlr9i?file=/src/App.js"/>
         </div>
           <Path />
       </Section>
